@@ -1,0 +1,52 @@
+body{
+    background-image: url(wew.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    border: 5px solid black;
+    border-radius: 100%;
+    padding:100px;
+    width: 500px;
+    margin-left: 800px;
+}
+.container:hover{
+    background-image: radial-gradient();
+    color:black;
+    transition-delay: 0s;
+    transition-duration:3s;
+    box-shadow: 25px 25px 25px black;
+}
+h2,p{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+button{
+    height: 60px;
+    font-size: xx-large;   
+}
+button:hover{
+    background-color: royalblue;
+}
+#guessInput{
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+}
+#guessInput:hover{
+    transition-delay: 0s;
+    transition-duration:3s;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
